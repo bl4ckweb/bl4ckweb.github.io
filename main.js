@@ -2,7 +2,7 @@ const btn = document.getElementById('submit');
 function wsp()
 {
     let nombre = document.getElementById('nombre').value;
-    let email = document.getElementById('email').value;
+    let email = document.getElementById('correo').value;
     let mensaje = document.getElementById('mensaje').value;
     let numero = document.getElementById('numero').value;
 
