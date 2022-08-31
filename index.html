@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Negocio</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <h1 class="logo">LOGO</h1>
+        <input type="checkbox" id="bar">
+        <label for="bar" class="btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="#nosotros">Nosotros</a>
+                </li>
+                <li>
+                    <a href="#galeria">Galeria</a>
+                </li>
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--INICIO-->
+    <section id="inicio">
+        <div class="inicio content">
+            <h1>Bienvenido</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptatibus quas error a? Esse cum, veniam omnis amet aliquid nisi.</p>
+            <a href="#contacto">Contáctanos</a>
+        </div>
+    </section>
+    <!--NOSOTROS-->
+    <section id="nosotros">
+        <div class="nosotros content">
+            <div class="texto">
+                <h3>Conoce un poco más de nosotros</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo ad sint quaerat omnis quis fugit nihil aliquam, a consectetur magnam eum perspiciatis iste reiciendis nostrum consequuntur praesentium exercitationem quibusdam beatae.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat in excepturi beatae quae voluptatem odio repudiandae esse nostrum est quo, voluptatum provident culpa rerum non officia voluptates eligendi, saepe dicta?</p>
+                <a href="#">Saber más</a>
+            </div>
+            <div class="img">
+                <img src="about.webp">
+            </div>
+        </div>
+    </section>
+    <!--GALERIA-->
+    <section id="galeria">
+        <div class="galeria content">
+            <div class="grid">
+            <img src="galeria1.webp">
+            <img src="galeria2.webp">
+            <img src="galeria3.webp">
+            <img src="galeria4.webp">
+            <img src="galeria5.webp">
+            <img src="galeria6.webp">
+
+            </div>
+                <a href="#">Ver más</a>
+        </div>
+       
+    </section>
+    <!--CONTACTO-->
+    <section id="contacto">
+        <div class="contacto content">
+            <div class="form">
+                <input type="text" placeholder="Nombre" id="nombre" required>
+                <input type="email" placeholder="Correo" id="correo" required>
+                <textarea  id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="submit" value="Enviar" id="submit" onclick="wsp()">
+            </div>
+        </div>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
